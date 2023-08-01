@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('https://st4.depositphotos.com/4038693/21366/v/1600/depositphotos_213665516-stock-illustration-concept-education-school-background-hand.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.msg{
+  border-bottom: 1px solid lightgrey;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
